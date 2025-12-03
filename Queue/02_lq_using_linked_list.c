@@ -46,7 +46,7 @@ void dequeue()
 
     front = front->next;
 
-    if (front == NULL) 
+    if (front == NULL)  
         rear = NULL;
 
     free(temp);

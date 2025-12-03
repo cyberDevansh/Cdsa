@@ -1,3 +1,8 @@
+// sll=single linked list
+// dll=doubly linked list
+// cll=circular linked list
+
+
 #include<stdio.h>
 #include<stdlib.h>
 // we use this at end of the each program to free the all nodes

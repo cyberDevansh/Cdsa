@@ -24,7 +24,6 @@ void dequeue() {
         printf("Queue Underflow\n");
         return;
     }
-
     printf("%d deleted\n", queue[front]);
     front++;
 
@@ -32,6 +31,24 @@ void dequeue() {
         front = rear = -1;
     }
 }
+//  this is also 
+// int dequeue() {
+//     if (front == -1) {              
+//         printf("Queue is EMPTY.\n");
+//         return -1;
+//     }
+
+//     int removed = queue[front];
+
+//     if (front == rear) {
+//         front = rear = -1;
+//     } else {
+//         front++;
+//     }
+
+//     return removed;
+// }
+
 
 void peek() {
     if (front == -1 || front > rear) {
